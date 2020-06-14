@@ -6,7 +6,9 @@
 
 Если вы еще не установили пакет arbotix, сделайте это сейчас с помощью следующей команды:
 
-![](../.gitbook/assets/image%20%2864%29.jpeg)
+```text
+$ sudo apt-get install ros-indigo-arbotix
+```
 
 
 

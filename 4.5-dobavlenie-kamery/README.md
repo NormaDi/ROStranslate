@@ -4,11 +4,15 @@
 
 Перед просмотром URDF-файлов давайте посмотрим конечный результат, используя следующую команду:
 
-![](../.gitbook/assets/image%20%2838%29.jpeg)
+```text
+ $ roslaunch rbx2_description box_robot_with_kinect.launch
+```
 
 Если _RViz_ все еще не работает:
 
-![](../.gitbook/assets/image%20%2867%29.jpeg)
+```text
+$ rosrun rviz rviz -d `rospack find rbx2_description`/urdf.rviz
+```
 
 Вид в RViz должен выглядеть так:
 

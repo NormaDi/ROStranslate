@@ -8,17 +8,19 @@
 
 Для начала запустите файл _box\_robot\_base\_only.launch_ в пакете _rbx2\_description_:
 
-![&#x41D;&#x430;&#x434;&#x43F;&#x438;&#x441;&#x44C;: $ roslaunch rbx2\_description box\_robot\_base\_only.launch 
-
-](blob:https://app.gitbook.com/f4ca15d3-1165-4492-bc8e-3181051aa8d8)
+```text
+$ roslaunch rbx2_description box_robot_base_only.launch
+```
 
 Вы должны увидеть небольшое окно с именем «Joint State Publisher» с двумя ползунковыми регуляторами, по одному на каждое колесо привода:
 
-![page115image53060752](blob:https://app.gitbook.com/d30eef50-4eac-46c1-8f11-725b8eea60b6)
+![page115image53060752](blob:https://app.gitbook.com/539d6792-c76d-46c9-a271-a718992fa3c4)
 
 Далее, запустите RViz с помощью включенного файла конфигурации urdf.rviz:
 
-![](../.gitbook/assets/image%20%2879%29.png)
+```text
+$ rosrun rviz rviz -d `rospack find rbx2_description`/urdf.rviz
+```
 
 Представление в RViz должно выглядеть примерно так:
 

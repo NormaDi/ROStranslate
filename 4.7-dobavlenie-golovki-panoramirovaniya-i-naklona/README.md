@@ -4,11 +4,15 @@
 
 Для нашего Box Robot мы будем использовать простые боксы для моделирования сервоприводов и кронштейнов. Вы можете попробовать это, используя следующую команду:
 
-![](../.gitbook/assets/image%20%283%29.png)
+```text
+$ roslaunch rbx2_description box_robot_with_pan_tilt_head.launch
+```
 
 Если _RViz_ все еще не работает:
 
-![](../.gitbook/assets/image%20%2888%29.jpeg)
+```text
+$ rosrun rviz rviz -d `rospack find rbx2_description`/urdf.rviz
+```
 
 После переключения дисплея модели робота, вид должен выглядеть следующим образом:
 
